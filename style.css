@@ -11,20 +11,8 @@ header {
    
 }
 
-.blu { 
-    background-color: blue;
-    margin-top: 10px;
-    height:78%;
-
-     
-}
-
-.pink {
-    background-color: pink;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    
+main {
+    background-color: gray;
 }
 
 .link {
@@ -35,33 +23,80 @@ header {
     height: 50px;
 }
 
+.blu { 
+    background-color: blue;
+    margin-top: 10px;
+    height:78%;
+} 
+
+.pink {
+    background-color: pink;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    margin-top: -210px;
+}
+
+.container1 {
+    background-color: white;
+     margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
 
 .flex-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.col1 {
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.col2 {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.green {
+    background-color: green;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
+
+.col3 {
+    background-color: pink;
+    width: 600px;
+    height: 200px;
+    margin-top: 20px;
+    
+}
+
+.col4 {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
 }
 
 
 
 
-nav {
-   
-}
-
-main {
-   
-}
 
 
-.big-column {
-  
-}
 
-.small-column {
-   
-}
+
+
 
 
 footer {
